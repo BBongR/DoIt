@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "288399916700",
+    "firebase_url": "https://mychat-1214.firebaseio.com",
+    "project_id": "mychat-1214",
+    "storage_bucket": "mychat-1214.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:288399916700:android:0d5fbdea22ecc464",
+        "android_client_info": {
+          "package_name": "org.techtown.mychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "288399916700-ftfa9p8uvfd15839lg2b219kucaqef7e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApGFnRQ-G9EEPidNtSyqwZomOaktzyUvc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
