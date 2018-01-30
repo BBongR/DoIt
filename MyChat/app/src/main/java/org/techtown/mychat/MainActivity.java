@@ -62,9 +62,9 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if (checkEmpty()) {
                     return;
+                } else {
+                    userLogin(email, password);
                 }
-
-                userLogin(email, password);
             }
         }); // btnLogin()
 
@@ -74,9 +74,9 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if (checkEmpty()) {
                     return;
+                } else {
+                    registerUser(email, password);
                 }
-
-                registerUser(email, password);
             }
         }); // btnRegister()
     } // onCreate()
