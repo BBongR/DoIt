@@ -14,7 +14,7 @@ import java.util.Calendar;
  *
  */
 public class MainActivity extends AppCompatActivity {
-    final SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy년 MM월 dd일 HH시 mm분");
+    final SimpleDateFormat format = new SimpleDateFormat("yyyy년 MM월 dd일 HH시 mm분");
     TextView textView;
     DateTimePicker picker;
 
@@ -32,16 +32,11 @@ public class MainActivity extends AppCompatActivity {
                                           int monthOfYear, int dayOfYear, int hourOfDay, int minute) {
                 Calendar calendar = Calendar.getInstance();
                 calendar.set(year, monthOfYear, dayOfYear, hourOfDay, minute);
+                String curTime = format.format(calendar.getTime());
 
-                // 바뀐 시간 텍스트뷰에 표시
-                textView.setText(dateFormat.format(calendar.getTime()));
+                textView.setText( curTime );
             }
         });
-
-        // 현재 시간 텍스트뷰에 표시
-        Calendar calendar = Calendar.getInstance();
-        calendar.set(picker.getYear(), picker.getMonth(), picker.getDayOfMonth(), picker.getCurrentHour(), picker.getCurrentMinute());
-        textView.setText(dateFormat.format(calendar.getTime()));
 
     }
 

@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SampleGridView.iml" filepath="$PROJECT_DIR$/SampleGridView.iml" />
+      <module fileurl="file://D:\DoIt\DoItAndroid_Source_Rev4\Part2\chapter05\SampleGridView\SampleGridView.iml" filepath="D:\DoIt\DoItAndroid_Source_Rev4\Part2\chapter05\SampleGridView\SampleGridView.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://D:\DoIt\DoItAndroid_Source_Rev4\Part2\chapter05\SampleGridView\app\app.iml" filepath="D:\DoIt\DoItAndroid_Source_Rev4\Part2\chapter05\SampleGridView\app\app.iml" />
     </modules>
   </component>
 </project>
